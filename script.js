@@ -10,12 +10,12 @@ selectCountry.forEach((tag, id) => {
     for (const countryCode in countries)
     {
         let selected;
-        //Default fromLocation is English and toLocation is Telugu
+        //Default fromLocation is English and toLocation is Hindi
         if (id == 0 && countryCode == "en-GB")
         {
             selected = "selected";
         }
-        else if(id == 1 && countryCode == "te-IN")
+        else if(id == 1 && countryCode == "hi-IN")
         {
             selected = "selected"
         }
